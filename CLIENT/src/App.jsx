@@ -5,7 +5,7 @@ import Dashboard from './components/Dashboard';
 
 const App = () => {
     const [token, setToken] = useState(null);
-    const [showRegister, setShowRegister] = useState(false);
+    const [showRegister, setShowRegister] = useState(true);
 
     if (token) {
         return <Dashboard token={token} />;
